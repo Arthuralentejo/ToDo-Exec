@@ -1,0 +1,74 @@
+:root{
+  --main-color:#54a0fe;
+  --btn-pink:#f268e1;
+  --input-bg:#c8d5e5;
+}
+.btn{
+  border:none;
+  padding: 10px;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.task{
+  list-style: none;
+  border: 1px solid var(--btn-pink);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+h1{
+  text-align: center;
+  color: var(--main-color);
+  font-weight: bolder;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background:#fdd3f7;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+#bot{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+ul{
+  padding: 0;
+}
+#block{
+  width: 40%;
+  box-sizing: border-box;
+  padding: 2rem;
+  border-radius: 15px;
+  background: white;
+  display: grid;
+  gap: 20px;
+}
+#unmark{
+  background: var(--main-color);
+  border-radius: 5px;
+}
+#add{
+  position: absolute;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  /* margin-left: -5px; */
+  background: var(--main-color);
+}
+#clear{
+  background: var(--btn-pink);
+  border-radius: 5px;
+}
+#taskinput{
+  box-sizing: border-box;
+  padding: 10px;
+  padding-bottom: 13px;
+  font-weight: bolder;
+  border: none;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  width:80%;
+  background: var(--input-bg);
+}

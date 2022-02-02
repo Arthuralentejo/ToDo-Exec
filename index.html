@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,32 @@
   <title>To-Do List</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
+<body>
+    <main id="block">
+      <header>
+        <h1>Lista de Tarefas</h1>
+          <input type="text" placeholder="Adicione uma tarefa" id="taskinput">
+        <a href="#" id="add" class=" btn">Adicionar</a>
+      </header>
+      <main>
+        <ul id="tasklist">
+          <li class="task">
+            <div class="tasktext">
+              <span>Essa aqui é uma tarefa</span>
+            </div>
+            <div class="removetask">
+              <a href="#" id="remove">❌</a> 
+            </div>
+          </li>
+        </ul>
+      </main>
+      <botton id="bot">
+        <a href="#" id="unmark" class=" btn">Desmarcar</a>
+        <a href="#" id="clear" class=" btn">Limpar Lista</a>
+      </botton>
+    </main>
   <script src="script.js"></script>
 </body>
+
 </html>
